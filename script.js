@@ -1,4 +1,4 @@
-var token = '90933102|-31949318332562315|90951170';
+var token = '90932239|-31949276827828650|90954334';
 var dbname = 'SCHOOL-DB';
 var relation = "STUDENT-TABLE";
 var baseUrl = "http://api.login2explore.com:5577";
@@ -28,7 +28,7 @@ disableAll();
 function executeCommand(reqString, apiEndPointUrl) {
     var url = baseUrl + apiEndPointUrl;
     var jsonObj;
-    
+
     $.post(url, reqString, function (result) {
         jsonObj = JSON.parse(result);
     }).fail(function (result) {
