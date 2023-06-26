@@ -1,0 +1,17 @@
+UPDATE is used to update any given value.
+
+{
+    "token": "90933102|-31949318332562315|90951170",
+    
+    "cmd": "UPDATE",
+     "dbName": "Student",
+    "rel": "Student-Rel",
+    
+    "jsonStr": {
+      
+      "2" : {
+        "age" : 20
+      }
+    }
+
+}
