@@ -1,1 +1,15 @@
+PUT is used to insert values in the database the example is as follows - 
 
+{
+    "token": "90933102|-31949318332562315|90951170",
+    "cmd": "PUT",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr": {
+        "id": "1",
+        "name": "abcd",
+        "email": "soniya@gmail.com",
+        "mobileno": 9967825671
+      "age" : "19"
+    }
+}
