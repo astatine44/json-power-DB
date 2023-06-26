@@ -1,0 +1,18 @@
+
+
+{
+    "token": "90933102|-31949318332562315|90951170",
+    
+    "cmd": "REMOVE",
+     "dbName": "Student",
+    "rel": "Student-Rel",
+    
+    "jsonStr": {
+      
+      "2" : {
+        "age" : 20
+      },
+      "1" : {"mobileno" : 8888888888}
+    }
+
+}
